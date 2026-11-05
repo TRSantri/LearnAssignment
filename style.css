@@ -1,0 +1,106 @@
+.hero {
+	position: relative;
+	height: 100vh;
+	background: url('gambar.jpg') center/cover no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+
+.hero-overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(
+		to top,
+		rgba(0,0,0,0.5),
+		rgba(0,0,0,0.2)
+	);
+		
+}
+
+.hero-content{
+	position: relative;
+	max-width: 800px;
+}
+
+.badge {
+	display: inline-block;
+	background: rgba(250, 250, 250, 0.15);
+	padding: 10px 30px;
+	border-radius: 15px;
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+.hero h1{
+	font-family: 'times new roman', arial;
+	font-size: 50px;
+	font-weight: 650;
+	line-height: 1;
+	letter-spacing: 0.5px;
+	background: linear-gradient(
+	to top,
+	 white,black
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+.hero p{
+	font-size:20px;
+	margin:20px;
+	color:whitesmoke;
+}
+
+.btn{
+	margin:3px;
+	padding:10px 20px;
+	border-radius:15px;
+	display:inline-block;
+	text-decoration:none ;
+	background: white;
+}
+
+.btn.primary{
+	color:black;
+	backgroud: ;
+	font-weight: ;
+}
+
+.btn.primary:hover {
+	background:black;
+	color:white;
+	transition:0.8s;
+}
+
+.btn.secondary{
+	color: black;
+	border: ;
+	font-weight: ;
+}
+
+.btn.secondary:hover {
+	background:black;
+	color: white;
+	transition:0.8s;
+}
+
+.countdown-box{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.countdown-box div{
+	padding: 15px 20px;
+	border-radius: 15px;
+	min-width: 70px;
+	background: linear-gradient(
+	to top,
+	black,white);
+	backdrop-filter: blur(10px);
+}

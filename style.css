@@ -1,7 +1,8 @@
 .hero {
 	position: relative;
 	height: 100vh;
-	background: url('https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center/cover no-repeat;
+	/* Pastikan URL gambar lengkap dan benar */
+	background: url('https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?w=800&auto=format&fit=crop&q=80') center/cover no-repeat;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -18,7 +19,6 @@
 		rgba(0,0,0,0.5),
 		rgba(0,0,0,0.2)
 	);
-		
 }
 
 .hero-content{
@@ -42,51 +42,49 @@
 	line-height: 1;
 	letter-spacing: 0.5px;
 	background: linear-gradient(
-	to top,
-	 white,black
+		to top,
+		white, black
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	
 }
 
 .hero p{
-	font-size:20px;
-	margin:20px;
-	color:whitesmoke;
+	font-size: 20px;
+	margin: 20px;
+	color: whitesmoke;
 }
 
 .btn{
-	margin:3px;
-	padding:10px 20px;
-	border-radius:15px;
-	display:inline-block;
-	text-decoration:none ;
+	margin: 3px;
+	padding: 10px 20px;
+	border-radius: 15px;
+	display: inline-block;
+	text-decoration: none;
 	background: white;
 }
 
 .btn.primary{
-	color:black;
-	backgroud: ;
-	font-weight: ;
+	color: black;
+	/* Menghapus properti kosong yang tidak valid */
+	font-weight: 500;
 }
 
 .btn.primary:hover {
-	background:black;
-	color:white;
-	transition:0.8s;
+	background: black;
+	color: white;
+	transition: 0.8s;
 }
 
 .btn.secondary{
 	color: black;
-	border: ;
-	font-weight: ;
+	font-weight: 500;
 }
 
 .btn.secondary:hover {
-	background:black;
+	background: black;
 	color: white;
-	transition:0.8s;
+	transition: 0.8s;
 }
 
 .countdown-box{
@@ -100,7 +98,8 @@
 	border-radius: 15px;
 	min-width: 70px;
 	background: linear-gradient(
-	to top,
-	black,white);
+		to top,
+		black, white
+	);
 	backdrop-filter: blur(10px);
 }
